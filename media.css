@@ -1,0 +1,173 @@
+@media screen and (max-width: 1024px) {
+    .skill-container {
+        flex-wrap: wrap;
+    }
+
+    .skill-box {
+        width: 45%;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* NAV */
+    nav img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .list ul i {
+        display: inline-block;
+    }
+
+    .list ul{
+        gap: 1rem;
+    }
+
+    .list ul li {
+        display: none;
+    }
+
+    .list ul li.open {
+        display: block;
+    }
+
+    .talk {
+        display: none;
+    }
+
+    /* HERO */
+    .first-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0 60px;
+        gap: 40px;
+    }
+
+    .left-section {
+        width: 100%;
+    }
+
+    .left-section h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero-desc {
+        margin: 0 auto 32px;
+    }
+
+    .left-section .profiles {
+        justify-content: center;
+    }
+
+    .right-section {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .right-section img {
+        width: 220px;
+        height: 220px;
+    }
+
+    /* ABOUT */
+    #about {
+        padding: 60px 0;
+    }
+
+    .About-content {
+        width: 90%;
+    }
+
+    .About-content h1 {
+        font-size: 2rem;
+    }
+
+    .About-content>p {
+        text-align: left;
+    }
+
+    .Approach-step {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    /* SKILLS */
+    #skills {
+        padding: 60px 0;
+    }
+
+    .skill-section h1 {
+        font-size: 2rem;
+    }
+
+    .skill-container {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .skill-box {
+        width: 100%;
+    }
+
+    /* PROJECTS */
+    #projects {
+        padding: 60px 0;
+    }
+
+    .project-heading {
+        width: 90%;
+        font-size: 2rem;
+    }
+
+    .project-card {
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .project-img img {
+        height: 180px;
+        width: 100%;
+    }
+
+    .project-text {
+        width: 100%;
+    }
+
+    /* CONTACT */
+    #contact {
+        padding: 60px 0;
+    }
+
+    .contact-section {
+        width: 90%;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* FOOTER */
+    .footer-inner {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+}
