@@ -2,22 +2,14 @@
 const menuBtn = document.getElementById('menuBtn');
 const navItems = document.querySelectorAll('.list ul li');
 
-const bar = document.querySelector("#menuBtn");
-
-bar.addEventListener("click" , () => {
-    bar.style.display = "none";
-    setInterval(() => {
-    bar = style.display = "flex";
-    }, 1000);
-})
-
 menuBtn.addEventListener('click', () => {
     navItems.forEach(li => {
         li.style.display = li.style.display === 'block' ? 'none' : 'block';
     });
 });
 
-// Close menu on nav link click (mobile)
+
+// Close menu on nav link click
 navItems.forEach(li => {
     li.addEventListener('click', () => {
         if (window.innerWidth <= 768) {
